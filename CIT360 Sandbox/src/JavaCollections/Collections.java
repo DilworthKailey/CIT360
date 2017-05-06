@@ -10,7 +10,7 @@ import java.util.Collection;
 import java.util.Iterator;
 import java.util.List;
 
-public class FamilyMembers {
+public class Collections {
     public static void main(String[] args){
         String[] family = {"josh", "kailey", "daniel", "jayden"};
         List<String> list1 = new ArrayList<String>();
