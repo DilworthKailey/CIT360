@@ -8,7 +8,7 @@ package JavaCollections;
 import java.util.*;
 /**
  *
- * @author Josh
+ * @author Kailey
  */
 public class LinkedList {
     public static void main(String[] args) {

@@ -9,7 +9,10 @@ import java.util.ArrayList;
 import java.util.Collection;
 import java.util.Iterator;
 import java.util.List;
-
+/**
+ *
+ * @author Kailey
+ */
 public class Collections {
     public static void main(String[] args){
         String[] family = {"josh", "kailey", "daniel", "jayden"};
