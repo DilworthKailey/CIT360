@@ -7,7 +7,7 @@ package JUnit;
 
 /**
  *
- * @author Josh
+ * @author Kailey
  */
 public class PrintGrades {
     public String print(int grade)
