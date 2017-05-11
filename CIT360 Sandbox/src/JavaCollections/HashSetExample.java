@@ -4,6 +4,10 @@
  * and open the template in the editor.
  */
 package JavaCollections;
+/**
+ *
+ * @author Kailey
+ */
 import java.util.*;
 
 public class HashSetExample {
