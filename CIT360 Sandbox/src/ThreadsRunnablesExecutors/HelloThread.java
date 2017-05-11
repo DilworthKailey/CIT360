@@ -15,9 +15,8 @@ public class HelloThread extends Thread {
     }
 
     public static void main(String args[]) {
-        (new HelloThread()).start();
-        (new HelloThread()).start();
-        (new HelloThread()).start();
+        HelloThread ht = new HelloThread();
+        ht.run();
     }
 
 }
