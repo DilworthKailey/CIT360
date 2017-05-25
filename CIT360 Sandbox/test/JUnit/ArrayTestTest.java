@@ -32,13 +32,12 @@ public class ArrayTestTest {
      */
     @Test
     public void testMain() {
-        System.out.println("main");
-        int[] input = null;
-        int[] expResult = null;
+        System.out.println("\tTest Case #1");
+        int[] input = {1, 3, 7, 8, 2, 5, 1};
+        int[] expResult = {1, 1, 2, 3, 5, 7, 8};
         int[] result = ArrayTest.main(input);
         assertArrayEquals(expResult, result);
-        // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+
     }
     
 }
