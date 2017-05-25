@@ -48,6 +48,7 @@ public class PrintGradesTest {
         pg = new PrintGrades();
         result = pg.print(20);
         assertEquals("Incorrect Message was recieved", "Should have studied your Java better...", result);
+        
     }
     
 }

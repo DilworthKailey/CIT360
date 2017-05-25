@@ -59,6 +59,18 @@ public class MathTestTest {
         result = MathTest.result(input);
         assertEquals(expResult, result);
         System.out.println(input + " < 25 = " + result);
+        
+        System.out.println("Test Case #5:");
+        input = 99;
+        result = MathTest.result(input);
+        assertFalse(result);
+        System.out.println(input + " < 25 = " + result);
+        
+        System.out.println("Test Case #6:");
+        input = 1;
+        result = MathTest.result(input);
+        assertTrue(result);
+        System.out.println(input + " < 25 = " + result);
     }
     
 }
