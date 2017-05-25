@@ -10,7 +10,12 @@ package ApplicationController;
  * @author Kailey
  */
 public class FirstPage {
+    int mathTime;
+    int secondNumber;
     public void show(){
         System.out.println("Displaying First Page");
+        mathTime = 2 * 25 / 5;
+        System.out.println("2 * 25 / 5 = " + mathTime);
+        
     }
 }

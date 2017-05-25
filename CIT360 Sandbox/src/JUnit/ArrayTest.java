@@ -17,12 +17,12 @@ public class ArrayTest {
         
         int[] iArr = input;
         
-        System.out.println(iArr);
+        System.out.println(Arrays.toString(iArr));
         
         Arrays.sort(iArr);
         
         System.out.println("The sorted array is: ");
-        System.out.println(iArr);
+        System.out.println(Arrays.toString(iArr));
 
         return iArr;
     }
