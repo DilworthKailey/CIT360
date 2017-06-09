@@ -25,16 +25,16 @@ public class JsonExample {
         JSONObject obj = new JSONObject();
         
         obj.put("Name", "Kailey");
-        obj.put("num", new Integer(100));
-        obj.put("balance", new Double(1000.21));
-        obj.put("is_vip", new Boolean(true));
+        obj.put("age", new Integer(25));
+        obj.put("balance", new Double(987.21));
+        obj.put("is_vip", new Boolean(false));
         
         StringWriter out = new StringWriter();
         obj.writeJSONString(out);
         
         String jsonText = out.toString();
 
-        System.out.print(jsonText);
+        System.out.println(jsonText);
         
         JSONParser parser = new JSONParser();
         String s = "[0,{\"1\":{\"2\":{\"3\":{\"4\":[5,{\"6\":7}]}}}}]";
