@@ -36,7 +36,11 @@ public class servlet extends HttpServlet {
         String a;
         a = request.getParameter("name").toString();
         
-        out.println("Welcome, " + a + "!");
+        String b;
+        b = request.getParameter("age").toString();
+        
+        out.println("Success!" + "</br>");
+        out.println("Welcome, " + a + "!" + "</br>" + "You are " + b + " years old. That's awesome!");
     }
 
     // <editor-fold defaultstate="collapsed" desc="HttpServlet methods. Click on the + sign on the left to edit the code.">
