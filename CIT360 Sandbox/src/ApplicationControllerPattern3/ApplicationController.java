@@ -11,7 +11,7 @@ import java.util.HashMap;
  *
  * @author Kailey
  */
-public class ApplicationControllerPat {
+public class ApplicationController {
 
     public static HashMap<String,HandleMath> hashMapOfCommands = new HashMap<String,HandleMath>();
     

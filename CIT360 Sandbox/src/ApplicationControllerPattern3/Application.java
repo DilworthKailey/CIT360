@@ -14,7 +14,7 @@ import java.util.Scanner;
  */
 public class Application {
     public static void main(String[] args){
-        ApplicationControllerPat dispatcher = new ApplicationControllerPat();
+        ApplicationController dispatcher = new ApplicationController();
         String add = "add";
         String sub = "sub";
         String div = "div";
